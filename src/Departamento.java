@@ -1,13 +1,10 @@
 public class Departamento {
     private String nombre;
-    private List<Carrera> carreras;
+    private String carreras;
 
     public Departamento(String nombre) {
         this.nombre = nombre;
-        this.carreras = new ArrayList<>();
+        this.carreras = carreras;
     }
 
-    public void agregarCarrera(Carrera carrera) {
-        carreras.add(carrera);
-    }
 }
